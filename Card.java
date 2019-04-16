@@ -21,8 +21,7 @@ public class Card {
 		private final int value;
 		private final String display;
 		
-		private Rank(int value, String display) {
-			
+		private Rank(int value, String display) {	
 			this.value = value;
 			this.display = display;
 		}
@@ -67,8 +66,7 @@ public class Card {
 	private Suit suit;
 	private Rank rank;
 	
-	public Card(Suit suit, Rank value){
-		
+	public Card(Suit suit, Rank value){	
 		this.suit = suit;
 		this.rank = value;
 	}
